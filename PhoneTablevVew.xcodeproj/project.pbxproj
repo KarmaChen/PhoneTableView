@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E60D675C1CE42ABD003A9F6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D675B1CE42ABD003A9F6F /* main.m */; };
+		E60D675F1CE42ABD003A9F6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D675E1CE42ABD003A9F6F /* AppDelegate.m */; };
+		E60D67621CE42ABD003A9F6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D67611CE42ABD003A9F6F /* ViewController.m */; };
+		E60D67651CE42ABD003A9F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60D67631CE42ABD003A9F6F /* Main.storyboard */; };
+		E60D67671CE42ABD003A9F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60D67661CE42ABD003A9F6F /* Assets.xcassets */; };
+		E60D676A1CE42ABD003A9F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60D67681CE42ABD003A9F6F /* LaunchScreen.storyboard */; };
+		E60D67751CE42ABD003A9F6F /* PhoneTablevVewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D67741CE42ABD003A9F6F /* PhoneTablevVewTests.m */; };
+		E60D67801CE42ABD003A9F6F /* PhoneTablevVewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D677F1CE42ABD003A9F6F /* PhoneTablevVewUITests.m */; };
+		E60D67901CE42D17003A9F6F /* PhoneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D678E1CE42D17003A9F6F /* PhoneTableViewCell.m */; };
+		E60D67911CE42D17003A9F6F /* PhoneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60D678F1CE42D17003A9F6F /* PhoneTableViewCell.xib */; };
+		E60D67931CE43F22003A9F6F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E60D67921CE43F22003A9F6F /* 1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E60D67711CE42ABD003A9F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E60D674F1CE42ABD003A9F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E60D67561CE42ABD003A9F6F;
+			remoteInfo = PhoneTablevVew;
+		};
+		E60D677C1CE42ABD003A9F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E60D674F1CE42ABD003A9F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E60D67561CE42ABD003A9F6F;
+			remoteInfo = PhoneTablevVew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E60D67571CE42ABD003A9F6F /* PhoneTablevVew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneTablevVew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60D675B1CE42ABD003A9F6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E60D675D1CE42ABD003A9F6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E60D675E1CE42ABD003A9F6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E60D67601CE42ABD003A9F6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E60D67611CE42ABD003A9F6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E60D67641CE42ABD003A9F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E60D67661CE42ABD003A9F6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E60D67691CE42ABD003A9F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E60D676B1CE42ABD003A9F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60D67701CE42ABD003A9F6F /* PhoneTablevVewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneTablevVewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60D67741CE42ABD003A9F6F /* PhoneTablevVewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneTablevVewTests.m; sourceTree = "<group>"; };
+		E60D67761CE42ABD003A9F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60D677B1CE42ABD003A9F6F /* PhoneTablevVewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneTablevVewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60D677F1CE42ABD003A9F6F /* PhoneTablevVewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneTablevVewUITests.m; sourceTree = "<group>"; };
+		E60D67811CE42ABD003A9F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60D678D1CE42D17003A9F6F /* PhoneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneTableViewCell.h; path = ../PhoneTableViewCell.h; sourceTree = "<group>"; };
+		E60D678E1CE42D17003A9F6F /* PhoneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneTableViewCell.m; path = ../PhoneTableViewCell.m; sourceTree = "<group>"; };
+		E60D678F1CE42D17003A9F6F /* PhoneTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhoneTableViewCell.xib; path = ../PhoneTableViewCell.xib; sourceTree = "<group>"; };
+		E60D67921CE43F22003A9F6F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E60D67541CE42ABD003A9F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60D676D1CE42ABD003A9F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60D67781CE42ABD003A9F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E60D674E1CE42ABD003A9F6F = {
+			isa = PBXGroup;
+			children = (
+				E60D67591CE42ABD003A9F6F /* PhoneTableView */,
+				E60D67731CE42ABD003A9F6F /* PhoneTablevVewTests */,
+				E60D677E1CE42ABD003A9F6F /* PhoneTablevVewUITests */,
+				E60D67581CE42ABD003A9F6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E60D67581CE42ABD003A9F6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E60D67571CE42ABD003A9F6F /* PhoneTablevVew.app */,
+				E60D67701CE42ABD003A9F6F /* PhoneTablevVewTests.xctest */,
+				E60D677B1CE42ABD003A9F6F /* PhoneTablevVewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E60D67591CE42ABD003A9F6F /* PhoneTableView */ = {
+			isa = PBXGroup;
+			children = (
+				E60D675D1CE42ABD003A9F6F /* AppDelegate.h */,
+				E60D675E1CE42ABD003A9F6F /* AppDelegate.m */,
+				E60D67601CE42ABD003A9F6F /* ViewController.h */,
+				E60D67611CE42ABD003A9F6F /* ViewController.m */,
+				E60D67631CE42ABD003A9F6F /* Main.storyboard */,
+				E60D678D1CE42D17003A9F6F /* PhoneTableViewCell.h */,
+				E60D678E1CE42D17003A9F6F /* PhoneTableViewCell.m */,
+				E60D678F1CE42D17003A9F6F /* PhoneTableViewCell.xib */,
+				E60D67661CE42ABD003A9F6F /* Assets.xcassets */,
+				E60D67921CE43F22003A9F6F /* 1.png */,
+				E60D67681CE42ABD003A9F6F /* LaunchScreen.storyboard */,
+				E60D676B1CE42ABD003A9F6F /* Info.plist */,
+				E60D675A1CE42ABD003A9F6F /* Supporting Files */,
+			);
+			name = PhoneTableView;
+			path = PhoneTablevVew;
+			sourceTree = "<group>";
+		};
+		E60D675A1CE42ABD003A9F6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E60D675B1CE42ABD003A9F6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E60D67731CE42ABD003A9F6F /* PhoneTablevVewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E60D67741CE42ABD003A9F6F /* PhoneTablevVewTests.m */,
+				E60D67761CE42ABD003A9F6F /* Info.plist */,
+			);
+			path = PhoneTablevVewTests;
+			sourceTree = "<group>";
+		};
+		E60D677E1CE42ABD003A9F6F /* PhoneTablevVewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E60D677F1CE42ABD003A9F6F /* PhoneTablevVewUITests.m */,
+				E60D67811CE42ABD003A9F6F /* Info.plist */,
+			);
+			path = PhoneTablevVewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E60D67561CE42ABD003A9F6F /* PhoneTablevVew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E60D67841CE42ABD003A9F6F /* Build configuration list for PBXNativeTarget "PhoneTablevVew" */;
+			buildPhases = (
+				E60D67531CE42ABD003A9F6F /* Sources */,
+				E60D67541CE42ABD003A9F6F /* Frameworks */,
+				E60D67551CE42ABD003A9F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneTablevVew;
+			productName = PhoneTablevVew;
+			productReference = E60D67571CE42ABD003A9F6F /* PhoneTablevVew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E60D676F1CE42ABD003A9F6F /* PhoneTablevVewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E60D67871CE42ABD003A9F6F /* Build configuration list for PBXNativeTarget "PhoneTablevVewTests" */;
+			buildPhases = (
+				E60D676C1CE42ABD003A9F6F /* Sources */,
+				E60D676D1CE42ABD003A9F6F /* Frameworks */,
+				E60D676E1CE42ABD003A9F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E60D67721CE42ABD003A9F6F /* PBXTargetDependency */,
+			);
+			name = PhoneTablevVewTests;
+			productName = PhoneTablevVewTests;
+			productReference = E60D67701CE42ABD003A9F6F /* PhoneTablevVewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E60D677A1CE42ABD003A9F6F /* PhoneTablevVewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E60D678A1CE42ABD003A9F6F /* Build configuration list for PBXNativeTarget "PhoneTablevVewUITests" */;
+			buildPhases = (
+				E60D67771CE42ABD003A9F6F /* Sources */,
+				E60D67781CE42ABD003A9F6F /* Frameworks */,
+				E60D67791CE42ABD003A9F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E60D677D1CE42ABD003A9F6F /* PBXTargetDependency */,
+			);
+			name = PhoneTablevVewUITests;
+			productName = PhoneTablevVewUITests;
+			productReference = E60D677B1CE42ABD003A9F6F /* PhoneTablevVewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E60D674F1CE42ABD003A9F6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "陈昆涛";
+				TargetAttributes = {
+					E60D67561CE42ABD003A9F6F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E60D676F1CE42ABD003A9F6F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E60D67561CE42ABD003A9F6F;
+					};
+					E60D677A1CE42ABD003A9F6F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E60D67561CE42ABD003A9F6F;
+					};
+				};
+			};
+			buildConfigurationList = E60D67521CE42ABD003A9F6F /* Build configuration list for PBXProject "PhoneTablevVew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E60D674E1CE42ABD003A9F6F;
+			productRefGroup = E60D67581CE42ABD003A9F6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E60D67561CE42ABD003A9F6F /* PhoneTablevVew */,
+				E60D676F1CE42ABD003A9F6F /* PhoneTablevVewTests */,
+				E60D677A1CE42ABD003A9F6F /* PhoneTablevVewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E60D67551CE42ABD003A9F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60D67911CE42D17003A9F6F /* PhoneTableViewCell.xib in Resources */,
+				E60D676A1CE42ABD003A9F6F /* LaunchScreen.storyboard in Resources */,
+				E60D67671CE42ABD003A9F6F /* Assets.xcassets in Resources */,
+				E60D67651CE42ABD003A9F6F /* Main.storyboard in Resources */,
+				E60D67931CE43F22003A9F6F /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60D676E1CE42ABD003A9F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60D67791CE42ABD003A9F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E60D67531CE42ABD003A9F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60D67901CE42D17003A9F6F /* PhoneTableViewCell.m in Sources */,
+				E60D67621CE42ABD003A9F6F /* ViewController.m in Sources */,
+				E60D675F1CE42ABD003A9F6F /* AppDelegate.m in Sources */,
+				E60D675C1CE42ABD003A9F6F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60D676C1CE42ABD003A9F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60D67751CE42ABD003A9F6F /* PhoneTablevVewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60D67771CE42ABD003A9F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60D67801CE42ABD003A9F6F /* PhoneTablevVewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E60D67721CE42ABD003A9F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E60D67561CE42ABD003A9F6F /* PhoneTablevVew */;
+			targetProxy = E60D67711CE42ABD003A9F6F /* PBXContainerItemProxy */;
+		};
+		E60D677D1CE42ABD003A9F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E60D67561CE42ABD003A9F6F /* PhoneTablevVew */;
+			targetProxy = E60D677C1CE42ABD003A9F6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E60D67631CE42ABD003A9F6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E60D67641CE42ABD003A9F6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E60D67681CE42ABD003A9F6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E60D67691CE42ABD003A9F6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E60D67821CE42ABD003A9F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E60D67831CE42ABD003A9F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E60D67851CE42ABD003A9F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhoneTablevVew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.PhoneTablevVew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E60D67861CE42ABD003A9F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhoneTablevVew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.PhoneTablevVew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E60D67881CE42ABD003A9F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhoneTablevVewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.PhoneTablevVewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneTablevVew.app/PhoneTablevVew";
+			};
+			name = Debug;
+		};
+		E60D67891CE42ABD003A9F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhoneTablevVewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.PhoneTablevVewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneTablevVew.app/PhoneTablevVew";
+			};
+			name = Release;
+		};
+		E60D678B1CE42ABD003A9F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhoneTablevVewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.PhoneTablevVewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhoneTablevVew;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E60D678C1CE42ABD003A9F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhoneTablevVewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.PhoneTablevVewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhoneTablevVew;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E60D67521CE42ABD003A9F6F /* Build configuration list for PBXProject "PhoneTablevVew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60D67821CE42ABD003A9F6F /* Debug */,
+				E60D67831CE42ABD003A9F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E60D67841CE42ABD003A9F6F /* Build configuration list for PBXNativeTarget "PhoneTablevVew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60D67851CE42ABD003A9F6F /* Debug */,
+				E60D67861CE42ABD003A9F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E60D67871CE42ABD003A9F6F /* Build configuration list for PBXNativeTarget "PhoneTablevVewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60D67881CE42ABD003A9F6F /* Debug */,
+				E60D67891CE42ABD003A9F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E60D678A1CE42ABD003A9F6F /* Build configuration list for PBXNativeTarget "PhoneTablevVewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60D678B1CE42ABD003A9F6F /* Debug */,
+				E60D678C1CE42ABD003A9F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E60D674F1CE42ABD003A9F6F /* Project object */;
+}
